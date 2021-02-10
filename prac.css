@@ -17,23 +17,24 @@ body {
     margin: 0px auto;
 }
 
-.nav {
+nav {
     position: fixed;
     z-index: 1;
 }
-.nav:before, .nav:after {
+/* nav:before, nav:after {
     content: "";
     position: fixed;
     width: 100vw;
     height: 100vh;
-    background-color: black;
+    background-color: rgb(94, 71, 71);
     z-index: -1;
         
 }
-.nav:after {
-    background: white;
+nav:after {
+    background: rgb(226, 216, 216);
     transition-delay: 0s;
 }
-.nav:before {
+nav:before {
     transition-delay: 0.5s;
-}
+} */
+
