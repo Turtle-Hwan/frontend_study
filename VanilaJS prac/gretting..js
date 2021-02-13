@@ -3,10 +3,14 @@ const form = document.querySelector(".js-form"),
 
 const USER_LS = "currentUser"
 
+function paintGreeting() {
+    
+}
+
 function loadName() {
     const currentUser = localStorage.getItem(USER_LS);
     if (currentUser === null) {
-        
+
     } else {
 
     }
