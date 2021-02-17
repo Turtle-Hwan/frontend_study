@@ -1,0 +1,13 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  #winlost {
+    font-weight: bold;
+  }
+  
+  #generateNum {
+    width: 80%;
+    cursor: pointer;
+  }
+  
