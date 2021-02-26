@@ -2,15 +2,11 @@ const body = document.querySelector("body");
 
 const IMG_NUMBER = 4;
 
-function handleImgLoad() {
-    console.log("finish load");
-}
-
 function paintImage(imgNumber) {
     const image = new Image();
     image.src = `images/${imgNumber + 1}.jpg`
-    image.addEventListener("loaded", handleImgLoad);
 
+    image.classList.add('bgImage');
     body.appendChild(image);
 }
 
