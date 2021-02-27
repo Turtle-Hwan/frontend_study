@@ -21,6 +21,11 @@ body {
     display: block;
 }
 
+li {
+    color: rgb(255, 249, 239);
+}
+
+
 
 @keyframes fadeIn {
     from { 
