@@ -45,5 +45,7 @@ li {
     z-index: -1;
 
     animation: fadeIn 2s linear;
+    
+    object-fit: cover;
 }
 
