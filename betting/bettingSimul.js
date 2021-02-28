@@ -9,7 +9,7 @@ const startNum = document.querySelector("#startNum");
 let totalMoney;
 
 function saveTotalNum() {
-    totalMoney = totalNum.value;
+    totalMoney = parseInt(totalNum.value);
 
     document.querySelector("#totalNum-div").innerHTML = "총 금액 저장 완료!"
 }
@@ -39,12 +39,6 @@ function gameStart() {
         alert("확인 버튼 눌러주세요");
     } else {
 
-        if (parseInt(startNum.value) < totalMoney) {
-            totalMoney = totalMoney - parseInt(startNum.value);
-
-            console.log(totalMoney)
-        }
-
         colorChanger();
 
         writeResult();
@@ -56,11 +50,12 @@ function writeResult() {
     const newLine = document.createElement("tr")
     newLine.innerHTML =
         `<td>${tryNum = tryNum + 1}</td>
-        <td>${winLoseMsg.innerHTML === "승리!" ? `${totalMoney = totalMoney + 2*parseInt(startNum.value)}` : `${totalMoney = totalMoney - parseInt(startNum.value)}`}</td>
+        <td>${winLoseMsg.innerHTML === "승리!" ? `${totalMoney = totalMoney + 2 * parseInt(startNum.value)}` : `${totalMoney = totalMoney - parseInt(startNum.value)}`}</td>
         <td>${winLoseMsg.innerHTML}</td>
         <td>${parseInt(startNum.value)}</td>
-        <td>${winLoseMsg.innerHTML === "승리!" ? `+ ${2*parseInt(startNum.value)}` : `- ${parseInt(startNum.value)}`}</td>`
-    resultTable.appendChild(newLine)
+        <td>${winLoseMsg.innerHTML === "승리!" ? `+ ${2*parseInt(startNum.value)}` : `- ${parseInt(startNum.value)}`}</td>`;
+    
+    resultTable.appendChild(newLine);
 }
 
 
