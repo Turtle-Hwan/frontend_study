@@ -14,7 +14,7 @@ java scrip를 활용하는 다양한 방법
 
 <만든 것>   
 계산기   
-To  Do List    
+[To  Do List](https://turtle-hwan.github.io/frontend_study/VanilaJS%20prac/)     
 
 <공부 과정을 노션에 정리했다>   
 [HTML, CSS](https://www.notion.so/html-css-js-81ab1ad78e724bf1be126b3f3046f8f4)   
