@@ -1,0 +1,46 @@
+<head>
+    <meta charset="UTF-8">
+
+    <title>Martingale Problem Simulator</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="bettingSimul.css">
+    <!--JS-->
+    <script async type="text/javascript" src="bettingSimul.js"></script>
+</head>
+
+<body>
+    <div id="gameInfo">
+        <p>[게임 규칙]</p>
+        <p>베팅 실험을 위해 만듦.</p>
+        <p>게임 시작 버튼 누르면 50% 확률로 빨 / 파 변함.</p>
+        <p>승리 시 두 배, 실패 시 없음.</p>
+    </div>
+    
+    <div id="redBlueBox"></div>
+    <div id="winLoseMsg"></div>
+    
+    <div style="display: block;">
+        <input id="startNum" type="number" placeholder="게임 할 금액 입력" />
+        <input id="selectRed" name="select"type="radio" value="2"/>빨강
+        <input id="selectBlue" name="select" type="radio" value="1"/>파랑
+        <button id="gamePlay">게임 시작!</button>
+    </div>
+
+    <div id = "totalNum-div" style="display: block;">
+        <input id="totalNum" type="number" placeholder="총 금액 입력"/>
+        <button id="confirm" onclick="saveTotalNum()">확인</button>
+    </div>
+
+    <p></p>
+    <table id="resultTable">
+        <caption>[금액 표]</caption>
+        <tr>
+            <th>시도 횟수</th>
+            <th>남은 총 금액</th>
+            <th>게임 결과</th>
+            <th>걸은 금액</th>
+            <th>+ or -</th>
+        </tr>
+    </table>
+    
+</body>
