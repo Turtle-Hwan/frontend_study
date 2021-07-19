@@ -1,0 +1,92 @@
+body {
+  font-family: sans-serif;
+  background-color: black;
+}
+
+table {
+  color: aliceblue;
+  width: 70%;
+  height: 300px;
+
+  letter-spacing: 1px;
+  border-collapse: collapse;
+
+  margin: auto auto;
+  text-align: center;
+}
+
+td {
+  width: 25%;
+  height: 20%;
+}
+
+#display {
+  width: 97%;
+  height: 95%;
+
+  font-size: 18pt;
+  background-color: black;
+  color: ivory;
+  border: 0;
+  outline: 0;
+
+  cursor: default;
+  /*커서 색깔 배경색과 동일하게*/
+  caret-color: black;
+}
+
+#reset {
+  width: 95%;
+  height: 95%;
+  border-radius: 1em;
+  font-size: 15pt;
+  background-color: rgb(137, 138, 146);
+  color: ivory;
+  border: 0;
+  outline: 0;
+}
+#reset:active {
+  background-color: rgb(117, 118, 126);
+}
+
+.num {
+  width: 95%;
+  height: 95%;
+  /*버튼 모서리 둥글게*/
+  border-radius: 1em;
+  font-size: 15pt;
+  background-color: rgb(37, 37, 43);
+  color: ivory;
+  /*버튼 기본 눌림 효과(테두리와 음영) 없애기*/
+  border: 0;
+  outline: 0;
+}
+
+.num0 {
+  width: 97.5%;
+  height: 95%;
+  border-radius: 1em;
+  font-size: 15pt;
+  background-color: rgb(37, 37, 43);
+  color: ivory;
+  border: 0;
+  outline: 0;
+}
+.num:active,
+.num0:active {
+  background-color: rgb(27, 27, 33);
+}
+
+.operator {
+  width: 95%;
+  height: 95%;
+  border-radius: 1em;
+  font-size: 15pt;
+  background-color: rgb(206, 148, 41);
+  color: ivory;
+  border: 0;
+  outline: 0;
+}
+.operator:active {
+  background-color: rgb(186, 128, 21);
+}
