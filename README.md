@@ -13,11 +13,12 @@ java scrip를 활용하는 다양한 방법
 
 
 <만든 것>   
-계산기   
-[To  Do List](https://turtle-hwan.github.io/frontend_study/VanilaJS%20prac/)     
+[계산기](https://turtle-hwan.github.io/frontend_study/VanilaJS%20prac/practice/calculator/)     
 
-[숫자 맞추기 게임](https://turtle-hwan.github.io/frontend_study/VanilaJS%20prac/practice/Assignment%208/)
+[To  Do List](https://turtle-hwan.github.io/frontend_study/VanilaJS%20prac/)       
 
+[숫자 맞추기 게임](https://turtle-hwan.github.io/frontend_study/VanilaJS%20prac/practice/Assignment%208/)      
+  
 <공부 과정을 노션에 정리했다>   
 [HTML, CSS](https://www.notion.so/html-css-js-81ab1ad78e724bf1be126b3f3046f8f4)   
 [Java Script](https://www.notion.so/Java-Script-89f3758f6f74494c98a5392be6844f93#b7327c1973444e1590e83be719abfb18)   
