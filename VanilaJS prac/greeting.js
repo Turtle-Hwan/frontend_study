@@ -40,6 +40,7 @@ function deleteName() {
 function resetName() {  //name 재설정 버튼
     const resetNameBtn = document.createElement("button");
     resetNameBtn.innerHTML = "🔄";
+    resetNameBtn.className = "btn btn-outline-success";
     resetNameBtn.classList.add("resetNameBtn");
     greeting.append(resetNameBtn);
     resetNameBtn.addEventListener("click", deleteName);

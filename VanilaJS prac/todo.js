@@ -28,6 +28,7 @@ function paintToDo(text) {
     const delBtn = document.createElement("button");
     delBtn.innerHTML = "❌";
     delBtn.classList.add('delBtn');
+    delBtn.classList.add("btn-outline-success");
     delBtn.addEventListener("click", deleteToDo);
 
     const span = document.createElement("span");
@@ -64,6 +65,6 @@ function loadToDos() {
 
 function init() {
     loadToDos();
-    toDoForm.addEventListener("submit", handleSubmitToDo)
+    toDoForm.addEventListener("submit", handleSubmitToDo);
 }
 init();
