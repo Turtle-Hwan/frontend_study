@@ -28,7 +28,7 @@ function paintGreeting(text) {  //유저가 있다면 -> text 출력
     //text 색칠을 위해서는 form을 숨겨야 함.
     form.classList.remove(SHOWING_CN);
     greeting.classList.add(SHOWING_CN);
-    greeting.innerText = `Hello ${text}`
+    greeting.innerText = `USER: ${text}  `
 }
 
 function deleteName() {

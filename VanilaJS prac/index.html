@@ -1,33 +1,34 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>ToDo List</title>
-    <meta charset="UTF-8" />
-    
-    <link rel="stylesheet" href="index.css" />
-  </head>
 
-  <body>
+<head>
+  <title>ToDo List</title>
+  <meta charset="UTF-8" />
+
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+  <div id="container">
     <div class="js-clock">
-        <h2 id="clock">00:00:00</h2>
+      <h2 id="clock">00:00:00</h2>
     </div>
     <form class="js-form form">
-        <input type="text" placeholder="what is your name?" />
+      <input type="text" placeholder="what is your name?" />
     </form>
-    
+
     <h4 class="js-greetings greetings"></h4>
-    
+
     <form class="js-toDoForm">
       <input type="text" placeholder="Write a to do" />
     </form>
-    <ul class="js-toDoList">  
+    <ul class="js-toDoList">
     </ul>
+  </div>
+  <script src="clock.js"></script>
+  <script src="greeting.js"></script>
+  <script src="todo.js"></script>
+  <script src="background.js"></script>
+</body>
 
-    <script src="clock.js"></script>
-    <script src="greeting.js"></script>
-
-    <script src="todo.js"></script>
-
-    <script src="background.js"></script>
-  </body>
 </html>
