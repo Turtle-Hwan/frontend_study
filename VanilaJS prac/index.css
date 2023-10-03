@@ -46,6 +46,10 @@ h2#clock {
     }
 }
 
+.hidden {
+    display: none;
+}
+
 .bgImage {
     position: absolute;
     top: 0;
